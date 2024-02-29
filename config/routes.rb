@@ -3,4 +3,8 @@ Rails.application.routes.draw do
 	get '/index' => 'home#index'
 	get '/add' => 'calculator#add'
 	post '/result' => 'calculator#result'
+	
+	# 예시 url : /result/50/1
+	get '/result/:first/:second' => 'calculator#result'
+	
 end
