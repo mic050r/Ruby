@@ -8,3 +8,80 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 44ms (Views: 36.2ms | ActiveRecord: 0.0ms | Allocations: 2754)
 
 
+Started GET "/?t=1709220322262" for 175.214.23.170 at 2024-02-29 15:25:22 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"t"=>"1709220322262"}
+  Rendering /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.8ms | Allocations: 308)
+Completed 200 OK in 60ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 1718)
+
+
+Started GET "/?t=1709220836950" for 175.214.23.170 at 2024-02-29 15:33:57 +0000
+Cannot render console from 10.1.20.90! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Parameters: {"t"=>"1709220836950"}
+  Rendering home/index.erb within layouts/application
+  Rendered home/index.erb within layouts/application (Duration: 0.3ms | Allocations: 190)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /workspace/Ruby_coin/public/packs
+[Webpacker] Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.43.0
+Time: 4679ms
+Built at: 2024-02-29 3:34:03 ├F10: PM┤
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 6709ms (Views: 6706.5ms | ActiveRecord: 0.0ms | Allocations: 17883)
+
+
+Started GET "/?t=1709220891151" for 175.214.23.170 at 2024-02-29 15:34:51 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"t"=>"1709220891151"}
+  Rendering /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.6.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.9ms | Allocations: 308)
+Completed 200 OK in 16ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 1825)
+
+
+Started GET "/index" for 175.214.23.170 at 2024-02-29 15:35:01 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  Rendered home/index.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 6986)
+
+
+Started GET "/index" for 175.214.23.170 at 2024-02-29 15:35:45 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  Rendered home/index.erb within layouts/application (Duration: 0.4ms | Allocations: 78)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 4729)
+
+
+Started GET "/index" for 175.214.23.170 at 2024-02-29 15:36:53 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  Rendered home/index.erb within layouts/application (Duration: 1.0ms | Allocations: 110)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 4753)
+
+

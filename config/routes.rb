@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+	# /index 로 접속하면 home controller 안에 들어있는 index를 실행하라
+	get '/index' => 'home#index'
+	
 end
