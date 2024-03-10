@@ -559,3 +559,60 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 4203)
 
 
+Started GET "/index" for 172.17.0.1 at 2024-03-10 11:19:52 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 4.4ms | Allocations: 4393)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.5ms | Allocations: 9695)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-10 11:20:25 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 1.0ms | Allocations: 773)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.1ms | Allocations: 5751)
+
+
+Started GET "/write" for 172.17.0.1 at 2024-03-10 11:20:29 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#write as HTML
+  Rendering home/write.erb within layouts/application
+  Rendered home/write.erb within layouts/application (Duration: 0.2ms | Allocations: 90)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 4273)
+
+
+Started POST "/create" for 172.17.0.1 at 2024-03-10 11:20:33 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#create as HTML
+  Parameters: {"title"=>"응냐", "content"=>"ㅇ무웅"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "응냐"], ["content", "ㅇ무웅"], ["created_at", "2024-03-10 11:20:33.328098"], ["updated_at", "2024-03-10 11:20:33.328098"]]
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[35m (70.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+Redirected to http://ruby-coin-gbuxx.run.goorm.io/index
+Completed 302 Found in 74ms (ActiveRecord: 70.5ms | Allocations: 3868)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-10 11:20:33 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.7ms | Allocations: 644)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms | Allocations: 4698)
+
+
