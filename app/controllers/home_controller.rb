@@ -33,4 +33,10 @@ class HomeController < ApplicationController
 		
 		redirect_to '/index'
 	end
+	
+	def delete
+		Post.destroy(params[:post_id])
+		
+		redirect_back(fallback_location: root_path)
+	end
 end
