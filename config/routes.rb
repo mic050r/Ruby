@@ -4,6 +4,9 @@ Rails.application.routes.draw do
 	get '/write' => 'home#write'
 	post '/create' => 'home#create'
 	
+	get '/modify/:post_id' => 'home#modify'
+	post '/update/:post_id' => 'home#update'
+	
 	get '/add' => 'calculator#add'
 	post '/result' => 'calculator#result'
 	

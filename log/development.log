@@ -616,3 +616,1199 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms | Allocations: 4698)
 
 
+Started GET "/index" for 119.196.25.94 at 2024-03-12 10:45:11 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 5.8ms | Allocations: 4684)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 42ms (Views: 34.8ms | ActiveRecord: 0.8ms | Allocations: 12868)
+
+
+Started GET "/write" for 119.196.25.94 at 2024-03-12 10:45:13 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#write as HTML
+  Rendering home/write.erb within layouts/application
+  Rendered home/write.erb within layouts/application (Duration: 1.8ms | Allocations: 94)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 4087)
+
+
+Started GET "/modify" for 119.196.25.94 at 2024-03-12 10:46:47 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#modify as HTML
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.4ms | Allocations: 94)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 4814)
+
+
+Started GET "/index" for 119.196.25.94 at 2024-03-12 10:47:44 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 13.9ms | Allocations: 4410)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 24.3ms | ActiveRecord: 1.4ms | Allocations: 11002)
+
+
+Started GET "/index" for 119.196.25.94 at 2024-03-12 10:48:02 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 1.5ms | Allocations: 797)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.1ms | Allocations: 5566)
+
+
+Started GET "/modify" for 119.196.25.94 at 2024-03-12 10:48:03 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.2ms | Allocations: 90)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 4025)
+
+
+Started GET "/index" for 119.196.25.94 at 2024-03-12 10:48:10 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 1.1ms | Allocations: 795)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.1ms | Allocations: 5554)
+
+
+Started GET "/index" for 119.196.25.94 at 2024-03-12 10:48:15 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 1.0ms | Allocations: 790)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.1ms | Allocations: 5569)
+
+
+Started GET "/modify" for 119.196.25.94 at 2024-03-12 10:48:58 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.2ms | Allocations: 91)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 4797)
+
+
+Started GET "/modify" for 119.196.25.94 at 2024-03-12 10:50:42 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/modify"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/modify" for 119.196.25.94 at 2024-03-12 10:51:28 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/modify"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/modify" for 119.196.25.94 at 2024-03-12 10:51:29 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/modify"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/modify" for 119.196.25.94 at 2024-03-12 10:51:29 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/modify"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/modify" for 119.196.25.94 at 2024-03-12 10:51:29 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/modify"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/modify" for 119.196.25.94 at 2024-03-12 10:51:29 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/modify"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/index" for 119.196.25.94 at 2024-03-12 10:51:32 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 4.3ms | Allocations: 4467)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.5ms | Allocations: 9650)
+
+
+Started GET "/modify/1" for 119.196.25.94 at 2024-03-12 10:51:34 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"1"}
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.2ms | Allocations: 90)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 4027)
+
+
+Started GET "/index" for 119.196.25.94 at 2024-03-12 10:52:50 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 1.3ms | Allocations: 804)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.1ms | Allocations: 5587)
+
+
+Started GET "/modify/1" for 119.196.25.94 at 2024-03-12 10:52:50 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"1"}
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 1.0ms | Allocations: 1368)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1902)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <form action='/create' method='post'>
+    2: 	제목 : <input type="text" name="title" value="<%=@post.title%>"/><br>
+    3: 	내용 : <input type="text" name="content" value="<%=@post.content%>"/><br>
+    4: 	<input type="submit">
+    5: </form>
+  
+app/views/home/modify.erb:2
+Started GET "/index" for 119.196.25.94 at 2024-03-12 10:53:09 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 1.0ms | Allocations: 803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.1ms | Allocations: 5570)
+
+
+Started GET "/modify" for 119.196.25.94 at 2024-03-12 10:53:09 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/modify"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.3) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.3) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.3) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/index" for 119.196.25.94 at 2024-03-12 10:53:10 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.8ms | Allocations: 648)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 3.4ms | ActiveRecord: 0.1ms | Allocations: 4509)
+
+
+Started GET "/index" for 119.196.25.94 at 2024-03-12 10:53:11 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.8ms | Allocations: 649)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms | Allocations: 4518)
+
+
+Started GET "/modify/1" for 119.196.25.94 at 2024-03-12 10:53:12 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"1"}
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.9ms | Allocations: 1359)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1901)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <form action='/create' method='post'>
+    2: 	제목 : <input type="text" name="title" value="<%=@post.title=%>"/><br>
+    3: 	내용 : <input type="text" name="content" value="<%=@post.content=%>"/><br>
+    4: 	<input type="submit">
+    5: </form>
+  
+app/views/home/modify.erb:2
+Started GET "/modify/1" for 119.196.25.94 at 2024-03-12 10:53:58 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"1"}
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.9ms | Allocations: 1357)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2505)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <form action='/create' method='post'>
+    2: 	제목 : <input type="text" name="title" value="<%=@post.title%>"/><br>
+    3: 	내용 : <input type="text" name="content" value="<%=@post.content%>"/><br>
+    4: 	<input type="submit">
+    5: </form>
+  
+app/views/home/modify.erb:2
+Started GET "/index" for 119.196.25.94 at 2024-03-12 10:54:26 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 1.5ms | Allocations: 2075)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 3262)
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    1: <% @posts.each do |post| %>
+    2: 제목 : <%=post.title%> <a href="/modify/<%=@post.id%>">수정하기</a><br>
+    3: 내용 : <%=post.content%><hr>
+    4: <% end %>
+    5: <br>
+  
+app/views/home/index.erb:2
+app/views/home/index.erb:1
+Started GET "/index" for 119.196.25.94 at 2024-03-12 10:54:28 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 1.2ms | Allocations: 1918)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms | Allocations: 2372)
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    1: <% @posts.each do |post| %>
+    2: 제목 : <%=post.title%> <a href="/modify/<%=@post.id%>">수정하기</a><br>
+    3: 내용 : <%=post.content%><hr>
+    4: <% end %>
+    5: <br>
+  
+app/views/home/index.erb:2
+app/views/home/index.erb:1
+Started GET "/index" for 119.196.25.94 at 2024-03-12 10:54:33 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 1.0ms | Allocations: 803)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.1ms | Allocations: 5582)
+
+
+Started GET "/modify/2" for 119.196.25.94 at 2024-03-12 10:54:35 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"2"}
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 1.0ms | Allocations: 1356)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1893)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <form action='/create' method='post'>
+    2: 	제목 : <input type="text" name="title" value="<%=@post.title%>"/><br>
+    3: 	내용 : <input type="text" name="content" value="<%=@post.content%>"/><br>
+    4: 	<input type="submit">
+    5: </form>
+  
+app/views/home/modify.erb:2
+Started GET "/index" for 119.196.25.94 at 2024-03-12 10:54:52 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.7ms | Allocations: 648)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.1ms | Allocations: 4510)
+
+
+Started GET "/index" for 119.196.25.94 at 2024-03-12 10:54:53 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.8ms | Allocations: 649)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.1ms | Allocations: 4502)
+
+
+Started GET "/write" for 119.196.25.94 at 2024-03-12 10:54:54 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#write as HTML
+  Rendering home/write.erb within layouts/application
+  Rendered home/write.erb within layouts/application (Duration: 0.2ms | Allocations: 90)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 4071)
+
+
+Started POST "/create" for 119.196.25.94 at 2024-03-12 10:54:59 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#create as HTML
+  Parameters: {"title"=>"오잉", "content"=>"뀨잉"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[36mPost Create (0.6ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "오잉"], ["content", "뀨잉"], ["created_at", "2024-03-12 10:54:59.844869"], ["updated_at", "2024-03-12 10:54:59.844869"]]
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[35m (13.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+Redirected to http://ruby-coin-gbuxx.run.goorm.io/index
+Completed 302 Found in 18ms (ActiveRecord: 13.8ms | Allocations: 3880)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-12 10:55:00 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.7ms | Allocations: 669)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.1ms | Allocations: 4667)
+
+
+Started GET "/modify/1" for 172.17.0.1 at 2024-03-12 10:55:01 +0000
+Cannot render console from 10.1.21.240! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"1"}
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.7ms | Allocations: 1235)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1856)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <form action='/create' method='post'>
+    2: 	제목 : <input type="text" name="title" value="<%=@post.title%>"/><br>
+    3: 	내용 : <input type="text" name="content" value="<%=@post.content%>"/><br>
+    4: 	<input type="submit">
+    5: </form>
+  
+app/views/home/modify.erb:2
+Started GET "/modify/1" for 172.17.0.1 at 2024-03-12 10:56:18 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"1"}
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.9ms | Allocations: 1359)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2692)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <form action='/create' method='post'>
+    2: 	제목 : <input type="text" name="title" value=<%=@post.title%>/><br>
+    3: 	내용 : <input type="text" name="content" value=<%=@post.content%>/><br>
+    4: 	<input type="submit">
+    5: </form>
+  
+app/views/home/modify.erb:2
+Started GET "/modify/1" for 172.17.0.1 at 2024-03-12 10:58:21 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"1"}
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.9ms | Allocations: 1357)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2690)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <form action='/create' method='post'>
+    2: 	제목 : <input type="text" name="title" value="<%=@post.title%>"/><br>
+    3: 	내용 : <input type="text" name="content" value="<%=@post.content%>"/><br>
+    4: 	<input type="submit">
+    5: </form>
+  
+app/views/home/modify.erb:2
+Started GET "/index" for 172.17.0.1 at 2024-03-12 10:58:26 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 1.0ms | Allocations: 823)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.1ms | Allocations: 5186)
+
+
+Started GET "/modify/1" for 172.17.0.1 at 2024-03-12 10:58:26 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"1"}
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.7ms | Allocations: 1235)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1863)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <form action='/create' method='post'>
+    2: 	제목 : <input type="text" name="title" value="<%=@post.title%>"/><br>
+    3: 	내용 : <input type="text" name="content" value="<%=@post.content%>"/><br>
+    4: 	<input type="submit">
+    5: </form>
+  
+app/views/home/modify.erb:2
+Started GET "/modify/1" for 172.17.0.1 at 2024-03-12 10:58:35 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:25:in `modify'
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.2ms | Allocations: 92)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 4.4ms | ActiveRecord: 0.5ms | Allocations: 9943)
+
+
+Started GET "/modify/1" for 172.17.0.1 at 2024-03-12 10:58:41 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:25:in `modify'
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.2ms | Allocations: 116)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.1ms | Allocations: 5630)
+
+
+Started GET "/modify/1" for 172.17.0.1 at 2024-03-12 10:58:47 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:25:in `modify'
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.3ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.1ms | Allocations: 5627)
+
+
+Started POST "/create" for 172.17.0.1 at 2024-03-12 10:58:49 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#create as HTML
+  Parameters: {"title"=>"안녕", "content"=>"제발"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "안녕"], ["content", "제발"], ["created_at", "2024-03-12 10:58:49.309966"], ["updated_at", "2024-03-12 10:58:49.309966"]]
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[35m (10.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+Redirected to http://ruby-coin-gbuxx.run.goorm.io/index
+Completed 302 Found in 14ms (ActiveRecord: 11.1ms | Allocations: 3868)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-12 10:58:49 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 1.1ms | Allocations: 861)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.1ms | Allocations: 5051)
+
+
+Started GET "/modify/2" for 172.17.0.1 at 2024-03-12 10:58:51 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"2"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:25:in `modify'
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.1ms | Allocations: 4601)
+
+
+Started POST "/create" for 172.17.0.1 at 2024-03-12 10:58:52 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#create as HTML
+  Parameters: {"title"=>"응냐", "content"=>"ㅇ무웅"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "응냐"], ["content", "ㅇ무웅"], ["created_at", "2024-03-12 10:58:52.594001"], ["updated_at", "2024-03-12 10:58:52.594001"]]
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[35m (13.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+Redirected to http://ruby-coin-gbuxx.run.goorm.io/index
+Completed 302 Found in 17ms (ActiveRecord: 13.6ms | Allocations: 3861)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-12 10:58:52 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.8ms | Allocations: 710)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms | Allocations: 4953)
+
+
+Started GET "/modify/2" for 172.17.0.1 at 2024-03-12 10:58:54 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"2"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:25:in `modify'
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 4614)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-12 10:58:56 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.9ms | Allocations: 710)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms | Allocations: 4766)
+
+
+Started GET "/modify/2" for 172.17.0.1 at 2024-03-12 11:02:51 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"2"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:25:in `modify'
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 3.2ms | ActiveRecord: 0.5ms | Allocations: 8813)
+
+
+Started POST "/create" for 172.17.0.1 at 2024-03-12 11:02:56 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#create as HTML
+  Parameters: {"title"=>"dmddmd", "content"=>"ㅇ무웅"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[36mPost Create (1.1ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "dmddmd"], ["content", "ㅇ무웅"], ["created_at", "2024-03-12 11:02:56.079525"], ["updated_at", "2024-03-12 11:02:56.079525"]]
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[35m (27.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+Redirected to http://ruby-coin-gbuxx.run.goorm.io/index
+Completed 302 Found in 32ms (ActiveRecord: 29.0ms | Allocations: 3858)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-12 11:02:56 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.9ms | Allocations: 746)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 4788)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-12 11:02:59 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.8ms | Allocations: 730)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms | Allocations: 4770)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-12 11:02:59 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.8ms | Allocations: 730)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms | Allocations: 4776)
+
+
+Started GET "/modify/4" for 172.17.0.1 at 2024-03-12 11:03:02 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"4"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:25:in `modify'
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.1ms | Allocations: 4606)
+
+
+Started POST "/create" for 172.17.0.1 at 2024-03-12 11:03:20 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#create as HTML
+  Parameters: {"title"=>"twnwdj", "content"=>"jskd"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "twnwdj"], ["content", "jskd"], ["created_at", "2024-03-12 11:03:20.013310"], ["updated_at", "2024-03-12 11:03:20.013310"]]
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[35m (12.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+Redirected to http://ruby-coin-gbuxx.run.goorm.io/index
+Completed 302 Found in 16ms (ActiveRecord: 12.5ms | Allocations: 3855)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-12 11:03:20 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.7ms | Allocations: 750)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.1ms | Allocations: 4800)
+
+
+Started GET "/modify/3" for 172.17.0.1 at 2024-03-12 11:03:23 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:25:in `modify'
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.1ms | Allocations: 4616)
+
+
+Started POST "/create" for 172.17.0.1 at 2024-03-12 11:03:26 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#create as HTML
+  Parameters: {"title"=>"QNd", "content"=>"뀨잉"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "QNd"], ["content", "뀨잉"], ["created_at", "2024-03-12 11:03:26.148982"], ["updated_at", "2024-03-12 11:03:26.148982"]]
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[35m (10.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+Redirected to http://ruby-coin-gbuxx.run.goorm.io/index
+Completed 302 Found in 14ms (ActiveRecord: 11.0ms | Allocations: 3863)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-12 11:03:26 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.9ms | Allocations: 770)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms | Allocations: 4826)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-12 11:03:29 +0000
+Cannot render console from 10.1.21.16! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.9ms | Allocations: 770)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms | Allocations: 4822)
+
+
+Started GET "/index" for 119.196.25.94 at 2024-03-13 14:23:52 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 5.0ms | Allocations: 4824)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 21.0ms | ActiveRecord: 0.5ms | Allocations: 13010)
+
+
+Started GET "/modify/4" for 119.196.25.94 at 2024-03-13 14:23:55 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"4"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:25:in `modify'
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.7ms | Allocations: 136)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 7.3ms | ActiveRecord: 0.1ms | Allocations: 5129)
+
+
+Started POST "/create" for 119.196.25.94 at 2024-03-13 14:24:02 +0000
+Cannot render console from 10.1.20.239! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#create as HTML
+  Parameters: {"title"=>"수정이될까요", "content"=>"넹"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "수정이될까요"], ["content", "넹"], ["created_at", "2024-03-13 14:24:02.771504"], ["updated_at", "2024-03-13 14:24:02.771504"]]
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[35m (11.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+Redirected to http://ruby-coin-gbuxx.run.goorm.io/index
+Completed 302 Found in 20ms (ActiveRecord: 11.4ms | Allocations: 3864)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-13 14:24:03 +0000
+Cannot render console from 10.1.20.90! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 2.7ms | Allocations: 800)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.1ms | Allocations: 4805)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-13 14:24:18 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.9ms | Allocations: 800)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms | Allocations: 4857)
+
+
+Started GET "/modify/1" for 172.17.0.1 at 2024-03-13 14:24:19 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:25:in `modify'
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.1ms | Allocations: 4604)
+
+
+Started POST "/create" for 172.17.0.1 at 2024-03-13 14:24:21 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#create as HTML
+  Parameters: {"title"=>"ㅇㅇㅇ", "content"=>"ㅇㅇ"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "ㅇㅇㅇ"], ["content", "ㅇㅇ"], ["created_at", "2024-03-13 14:24:21.933626"], ["updated_at", "2024-03-13 14:24:21.933626"]]
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[35m (14.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+Redirected to http://ruby-coin-gbuxx.run.goorm.io/index
+Completed 302 Found in 25ms (ActiveRecord: 14.4ms | Allocations: 3851)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-13 14:24:22 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 2.2ms | Allocations: 810)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.1ms | Allocations: 4864)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-13 14:26:47 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/workspace/Ruby_coin/app/controllers/home_controller.rb:35: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/home_controller.rb:35: syntax error, unexpected end-of-input, expecting end
+app/controllers/home_controller.rb:35: syntax error, unexpected end-of-input, expecting end
+app/controllers/home_controller.rb:35: syntax error, unexpected end-of-input, expecting end
+Started GET "/index" for 172.17.0.1 at 2024-03-13 14:26:49 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/workspace/Ruby_coin/app/controllers/home_controller.rb:35: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/home_controller.rb:35: syntax error, unexpected end-of-input, expecting end
+app/controllers/home_controller.rb:35: syntax error, unexpected end-of-input, expecting end
+app/controllers/home_controller.rb:35: syntax error, unexpected end-of-input, expecting end
+Started GET "/index" for 172.17.0.1 at 2024-03-13 14:26:49 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/workspace/Ruby_coin/app/controllers/home_controller.rb:35: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/home_controller.rb:35: syntax error, unexpected end-of-input, expecting end
+app/controllers/home_controller.rb:35: syntax error, unexpected end-of-input, expecting end
+app/controllers/home_controller.rb:35: syntax error, unexpected end-of-input, expecting end
+Started GET "/index" for 172.17.0.1 at 2024-03-13 14:27:11 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 4.1ms | Allocations: 4482)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.4ms | Allocations: 9106)
+
+
+Started GET "/modify/1" for 172.17.0.1 at 2024-03-13 14:27:13 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:25:in `modify'
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.1ms | Allocations: 4754)
+
+
+Started POST "/create" for 172.17.0.1 at 2024-03-13 14:27:16 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#create as HTML
+  Parameters: {"title"=>"ddd", "content"=>"dd"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "ddd"], ["content", "dd"], ["created_at", "2024-03-13 14:27:16.113204"], ["updated_at", "2024-03-13 14:27:16.113204"]]
+  ↳ app/controllers/home_controller.rb:17:in `create'
+  [1m[35m (12.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/home_controller.rb:17:in `create'
+Redirected to http://ruby-coin-gbuxx.run.goorm.io/index
+Completed 302 Found in 16ms (ActiveRecord: 12.3ms | Allocations: 3873)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-13 14:27:16 +0000
+Cannot render console from 10.1.20.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.9ms | Allocations: 831)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.1ms | Allocations: 4881)
+
+
+Started GET "/modify/1" for 172.17.0.1 at 2024-03-13 14:28:47 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:25:in `modify'
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.3ms | Allocations: 152)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.1ms | Allocations: 5663)
+
+
+Started POST "/update/1" for 172.17.0.1 at 2024-03-13 14:28:51 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#update as HTML
+  Parameters: {"title"=>"ddddddddd", "content"=>"dddddddd", "post_id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1167)
+
+
+  
+NoMethodError (undefined method `find' for nil:NilClass):
+  
+app/controllers/home_controller.rb:29:in `update'
+Started POST "/update/1" for 172.17.0.1 at 2024-03-13 14:29:10 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#update as HTML
+  Parameters: {"title"=>"ddddddddd", "content"=>"dddddddd", "post_id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:29:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/home_controller.rb:32:in `update'
+  [1m[36mPost Update (0.2ms)[0m  [1m[33mUPDATE "posts" SET "title" = ?, "content" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["title", "ddddddddd"], ["content", "dddddddd"], ["updated_at", "2024-03-13 14:29:10.072641"], ["id", 1]]
+  ↳ app/controllers/home_controller.rb:32:in `update'
+  [1m[35m (12.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/home_controller.rb:32:in `update'
+Redirected to http://ruby-coin-gbuxx.run.goorm.io/index
+Completed 302 Found in 22ms (ActiveRecord: 13.5ms | Allocations: 8529)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-13 14:29:10 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 1.2ms | Allocations: 1003)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.2ms | Allocations: 5346)
+
+
+Started GET "/modify/2" for 172.17.0.1 at 2024-03-13 14:29:12 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#modify as HTML
+  Parameters: {"post_id"=>"2"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:25:in `modify'
+  Rendering home/modify.erb within layouts/application
+  Rendered home/modify.erb within layouts/application (Duration: 0.1ms | Allocations: 13)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.1ms | Allocations: 4608)
+
+
+Started POST "/update/2" for 172.17.0.1 at 2024-03-13 14:29:15 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#update as HTML
+  Parameters: {"title"=>"dddddddddddddddddd", "content"=>"d", "post_id"=>"2"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:29:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/home_controller.rb:32:in `update'
+  [1m[36mPost Update (0.2ms)[0m  [1m[33mUPDATE "posts" SET "title" = ?, "content" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["title", "dddddddddddddddddd"], ["content", "d"], ["updated_at", "2024-03-13 14:29:15.261642"], ["id", 2]]
+  ↳ app/controllers/home_controller.rb:32:in `update'
+  [1m[35m (12.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/home_controller.rb:32:in `update'
+Redirected to http://ruby-coin-gbuxx.run.goorm.io/index
+Completed 302 Found in 17ms (ActiveRecord: 13.2ms | Allocations: 4417)
+
+
+Started GET "/index" for 172.17.0.1 at 2024-03-13 14:29:15 +0000
+Cannot render console from 10.1.20.202! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering home/index.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/index.erb:1
+  Rendered home/index.erb within layouts/application (Duration: 0.9ms | Allocations: 830)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.1ms | Allocations: 4877)
+
+

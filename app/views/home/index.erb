@@ -1,5 +1,5 @@
 <% @posts.each do |post| %>
-제목 : <%=post.title%><br>
+제목 : <%=post.title%> <a href="/modify/<%=post.id%>">수정하기</a><br>
 내용 : <%=post.content%><hr>
 <% end %>
 <br>
