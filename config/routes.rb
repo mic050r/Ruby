@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :boards
 	root 'home#index'
   	resources :posts
 	# /index 로 접속하면 home controller 안에 들어있는 index(액션을)를 실행하라
